@@ -31,10 +31,10 @@ export default function AuthPage() {
         {/* Logo/Brand */}
         <div className="text-center">
           <div className="inline-flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-xl text-black font-black text-2xl mb-4">
-            G
+            PT
           </div>
           <h2 className="text-3xl font-bold text-white">
-            {isLogin ? "Sign in to Gemini" : "Create an account"}
+            {isLogin ? "Sign in to Pro-Trade" : "Create an account"}
           </h2>
           <p className="text-gray-500 mt-2 text-sm">
             {isLogin ? "Enter your details to access the terminal" : "Join thousands of traders today"}

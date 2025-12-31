@@ -12,11 +12,9 @@ export default function LandingPage() {
           <a href="#" className="hover:text-white">Platforms</a>
           <a href="#" className="hover:text-white">Company</a>
         </div>
-        <button 
-            onClick={() => router.push('/auth')}
-            className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold">
-            Trade Now
-        </button>
+       <Link href="/auth" className="bg-yellow-500 text-black px-8 py-4 rounded-full font-bold">
+           Trade Now
+       </Link>
       </nav>
 
       {/* Hero Section */}
